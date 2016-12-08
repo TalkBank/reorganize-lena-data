@@ -2,9 +2,9 @@
 
 # This script makes no file copies at all, only hard links.
 
-input=/Volumes/4TB/media/franklin-Leonid-input
-output=/Volumes/4TB/media/franklin-Leonid-output
-mediaOutput=/Volumes/4TB/media/franklin-Leonid-media
+input=${1:?input directory required}
+output=${2:?output directory required}
+mediaOutput=${3:?media output directory required}
 
 mkdir -p $output
 mkdir -p $mediaOutput

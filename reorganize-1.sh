@@ -2,8 +2,8 @@
 
 # This script makes no file copies at all, only hard links.
 
-input=/Volumes/4TB/media/franklin-input1
-output=/Volumes/4TB/media/franklin-output1
+input=${1:?input directory missing}
+output=${2:?output directory missing}
 
 mkdir -p $output
 
