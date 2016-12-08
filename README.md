@@ -1,5 +1,7 @@
 # Reorganize LENA data
 
+[![Build Status](https://travis-ci.org/TalkBank/reorganize-lena-data.png)](https://travis-ci.org/TalkBank/reorganize-lena-data)
+
 Scripts to reorganize LENA data, including running LENA to CHAT.
 
 ## The formats of the different phases
